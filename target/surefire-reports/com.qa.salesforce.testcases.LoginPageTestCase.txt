@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.qa.salesforce.testcases.LoginPageTestCase
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 1.138 sec <<< FAILURE!
+setup(com.qa.salesforce.testcases.LoginPageTestCase)  Time elapsed: 0.896 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.salesforce.base.TestBase.initialization(TestBase.java:44)
+	at com.qa.salesforce.testcases.LoginPageTestCase.setup(LoginPageTestCase.java:29)
+

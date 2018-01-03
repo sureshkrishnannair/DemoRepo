@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.qa.salesforce.testcases.LoginPageTestCase" duration-ms="36" started-at="2017-12-30T12:39:21Z" finished-at="2017-12-30T12:39:21Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="36" started-at="2017-12-30T12:39:21Z" finished-at="2017-12-30T12:39:21Z">
+      <class name="com.qa.salesforce.testcases.LoginPageTestCase">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:com.qa.salesforce.testcases.LoginPageTestCase@2c6a3f77]" name="setup" is-config="true" duration-ms="0" started-at="2017-12-30T07:39:21Z" finished-at="2017-12-30T07:39:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.qa.salesforce.base.TestBase.initialization(TestBase.java:44)
+	at com.qa.salesforce.testcases.LoginPageTestCase.setup(LoginPageTestCase.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="ValidateLogoTest()[pri:0, instance:com.qa.salesforce.testcases.LoginPageTestCase@2c6a3f77]" name="ValidateLogoTest" duration-ms="1" started-at="2017-12-30T07:39:21Z" finished-at="2017-12-30T07:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLogoTest -->
+        <test-method status="SKIP" signature="TearDown()[pri:0, instance:com.qa.salesforce.testcases.LoginPageTestCase@2c6a3f77]" name="TearDown" is-config="true" duration-ms="0" started-at="2017-12-30T07:39:21Z" finished-at="2017-12-30T07:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="SKIP" signature="validateLoginTest()[pri:0, instance:com.qa.salesforce.testcases.LoginPageTestCase@2c6a3f77]" name="validateLoginTest" duration-ms="1" started-at="2017-12-30T07:39:21Z" finished-at="2017-12-30T07:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest -->
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.qa.salesforce.testcases.LoginPageTestCase@2c6a3f77]" name="setup" is-config="true" duration-ms="0" started-at="2017-12-30T07:39:21Z" finished-at="2017-12-30T07:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="TearDown()[pri:0, instance:com.qa.salesforce.testcases.LoginPageTestCase@2c6a3f77]" name="TearDown" is-config="true" duration-ms="0" started-at="2017-12-30T07:39:21Z" finished-at="2017-12-30T07:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.qa.salesforce.testcases.LoginPageTestCase -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.qa.salesforce.testcases.LoginPageTestCase -->
+</testng-results>
